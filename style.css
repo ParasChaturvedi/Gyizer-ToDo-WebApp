@@ -1,0 +1,192 @@
+body {
+  background: #1b1a17;
+  font-family: "Georgia", Times, serif;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+#navbar {
+  background-color: #242320;
+  border: 2px solid #a35709;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+}
+.nav-headings {
+  margin-left: 15px;
+}
+.primary-heading {
+  color: #ffffff;
+  font-size: 24px;
+}
+.secondary-heading {
+  color: #f0e3ca;
+  font-size: 16px;
+}
+
+.add-section {
+  width: 100%;
+  margin: 0px auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.add-input {
+  display: block;
+  margin-top: 45px;
+}
+
+.add-section input {
+  display: block;
+  width: 105%;
+  height: 40px;
+  margin: 10px auto;
+  color: #f2dede;
+  border: 2px solid #ff8303;
+  background-color: #242320;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.add-button button {
+  width: 100%;
+  height: 90px;
+  margin: 0px auto;
+  border: none;
+  outline: none;
+  background: #1b1a17;
+  color: #f0e3caa3;
+  font-family: sans-serif;
+  border: 2px solid #ff8303;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-top: 45px;
+}
+
+
+.add-section button:hover {
+  opacity: 0.9;
+  background-color: #242320;
+}
+
+.add-button button span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 0px 0px 25px 0px;
+  color: #ff8303;
+}
+
+#errorMes {
+  display: block;
+  background: #f2dede;
+  width: 95%;
+  margin: 0px auto;
+  color: rgb(139, 19, 19);
+  padding: 10px;
+  height: 35px;
+}
+
+.show-todo-section {
+  width: 100%;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 5px;
+  display: block;
+  align-items: center;
+}
+
+.todo-item {
+  width: 95%;
+  margin: 10px auto;
+  padding: 20px 10px;
+  box-shadow: 0 4px 8px 0 #1b1a17, 0 6px 20px 0 #1b1a17;
+  border: 2px solid #ff8303;
+  border-radius: 5px;
+}
+
+.todo-item h2 {
+  display: inline-block;
+  padding: 5px 0px;
+  font-size: 17px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  padding-left: 30px;
+
+}
+.todo-item p {
+  display: inline-block;
+  padding: 5px 0px;
+  font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: #ffffff;
+  padding-left: 30px;
+
+}
+
+.todo-item small {
+  display: block;
+  width: 100%;
+  padding: 5px 0px;
+  color: #ffffff;
+  padding-left: 30px;
+  padding-top: 50px;
+  font-size: 10px;
+  font-family: sans-serif;
+}
+.remove-to-do-i {
+  display: block;
+  float: right;
+  width: 38px;
+  height: 38px;
+  font-family: sans-serif;
+  color: #ff8303;
+  text-decoration: none;
+  padding: 0px 0px 0px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #ff8303;
+  margin-right: 13px;
+  font-size: x-large;
+}
+
+.empty {
+  font-family: sans-serif;
+  font-size: 24px;
+  text-align: center;
+  color: #fff;
+}
+.btn {
+  background-color: #1B1A17;
+  border: 2px solid #ff8303;
+  color: #ff8303;
+  float: right;
+}
+.remove-to-do-i:hover ,
+.btn:hover{
+  background-color: #242320;
+  border: 2px solid #a35709;
+  color: #ff8303;
+}
+.modal-body{
+  background-color: #1B1A17;
+  color: #fff;
+}
+.modal-dialog{
+  background-color: #1B1A17;
+  border: 2px solid #a35709;
+
+}
+.modal-footer{
+  background-color: #1B1A17;
+}
